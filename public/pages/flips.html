@@ -1,0 +1,23 @@
+<section class="page-head">
+    <h3 class="dash-title">instant flips</h3>
+    <span class="quiet" id="pageCount"></span>
+  </section>
+
+  <div class="chip-row" id="flip-presets">
+    <button class="chip active" data-preset="active">active</button>
+    <button class="chip" data-preset="liquid">liquid</button>
+    <button class="chip" data-preset="big">big money</button>
+    <button class="chip" data-preset="scalp">scalps</button>
+    <button class="chip" data-preset="budget">budget</button>
+    <button class="chip" data-preset="everything">everything</button>
+  </div>
+
+  <div class="toolbar flips-settings">
+    <label>min profit <input id="f-minProfit" type="number" step="1000" value="25000" placeholder="0"></label>
+    <label>min ROI % <input id="f-minPct" type="number" step="0.1" value="1" placeholder="0"></label>
+    <label>max ROI % <input id="f-maxPct" type="number" step="0.1" value="1000" placeholder="1000"></label>
+    <label>min vol <input id="f-minVol" type="number" step="1" value="25" placeholder="0"></label>
+    <label>max cost <input id="f-maxCost" type="number" step="1000" value="0" placeholder="0"></label>
+    <span class="toolbar-reset"><button id="f-reset" class="chip">reset</button></span>
+    <span class="toolbar-note">a flip = buy the sell offer, sell into the buy order</span>
+  </div>

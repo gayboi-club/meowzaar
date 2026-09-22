@@ -1,0 +1,19 @@
+{
+  "port": 3000,
+  "poll": {
+    "mode": "adaptive",
+    "probeIntervalMs": 5000,
+    "minWaitMs": 2000,
+    "maxWaitMs": 60000,
+    "fallbackIntervalMs": 60000
+  },
+  "history": {
+    "retentionDays": 30,
+    "flushDebounceMs": 10000,
+    "maxGapMs": 3600000
+  },
+  "hypixelApiKeys": [],
+  "nameMapSources": [
+    "https://api.hypixel.net/v2/resources/skyblock/items"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "meowzaar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A slightly autistic data terminal for the average skyblock player :3",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "marked": "^18.0.14"
+  }
+}
